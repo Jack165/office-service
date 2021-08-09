@@ -37,7 +37,7 @@ public class HtmlToPdfUrl {
             page.pdf(pdfOptions);
 
         } catch (Exception e) {
-          e.printStackTrace();
+            e.printStackTrace();
         } finally {
             if (null != page) {
                 try {
@@ -49,8 +49,6 @@ public class HtmlToPdfUrl {
             if (null != browser) {
                 browser.close();
             }
-
         }
-
     }
 }
