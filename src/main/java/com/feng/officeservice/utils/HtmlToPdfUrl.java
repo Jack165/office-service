@@ -33,6 +33,7 @@ public class HtmlToPdfUrl {
             Thread.sleep(3000);
             PDFOptions pdfOptions = new PDFOptions();
             pdfOptions.setPath(file);
+            //设置A4纸大小
             pdfOptions.setFormat("A4");
             page.pdf(pdfOptions);
 
